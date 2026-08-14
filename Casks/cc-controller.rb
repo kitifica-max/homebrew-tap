@@ -1,14 +1,14 @@
 cask "cc-controller" do
-  version "1.4.6"
+  version "1.4.7"
 
   on_arm do
-    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.4.6/CC.Controller-1.4.6-arm64.dmg"
-    sha256 "4841bd2243f341845811dcb23255427534c7089c9472bf2f33561ca508bba348"
+    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.4.7/CC.Controller-1.4.7-arm64.dmg"
+    sha256 "5eb5a96d53804f8555de77ac942e8913666d2e5a3588a92b470a6aafb18fc370"
   end
 
   on_intel do
-    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.4.6/CC.Controller-1.4.6.dmg"
-    sha256 "b5951aaaab4cb52abf55e0d61759c1cabcda0c087c96ffda99e1f2a74fcff0cf"
+    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.4.7/CC.Controller-1.4.7.dmg"
+    sha256 "75c5cce6092e75d8486b2332330d6117ca34c58d9d01a2630340af6662d2c957"
   end
 
   name "CC Controller"
