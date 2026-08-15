@@ -1,14 +1,14 @@
 cask "cc-controller" do
-  version "1.7.0"
+  version "1.7.1"
 
   on_arm do
-    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.7.0/CC.Creator-1.7.0-arm64.dmg"
-    sha256 "d2fb79024d8463acc8937465b3f2ea40acd97f923b3ce1cabeabb175cc2fc1f7"
+    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.7.1/CC.Creator-1.7.1-arm64.dmg"
+    sha256 "04097d990e4ab6814e4cc3b39f6a8252fb1ff1024bbd3165fbf44db96317175e"
   end
 
   on_intel do
-    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.7.0/CC.Creator-1.7.0.dmg"
-    sha256 "a1d8acb9e9e3fcf377c1e2d277eb3065600a371327382906160a3db054a1bfee"
+    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.7.1/CC.Creator-1.7.1.dmg"
+    sha256 "5b8b4affc3c74d02e70bb29b9eaf4a6dd5fa71b9ff129a06f4fb1dce10f174dd"
   end
 
   name "CC Creator"
