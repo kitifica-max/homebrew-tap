@@ -1,19 +1,19 @@
 cask "cc-controller" do
-  version "1.5.1"
+  version "1.6.0"
 
   on_arm do
-    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.5.1/CC.Controller-1.5.1-arm64.dmg"
-    sha256 "5d34d5f7585fc6ba22d11cd98fe63f5464016d602ab06ee4207d3a0f501cb560"
+    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.6.0/CC.Creator-1.6.0-arm64.dmg"
+    sha256 "7ec6f3683374ccaaab88ca26991a28ab14ef2b8a69190cf268844cb65a4447d3"
   end
 
   on_intel do
-    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.5.1/CC.Controller-1.5.1.dmg"
-    sha256 "b839de219fead31ca23e79bf4581d954711366594992eb782d32d8d40d9f340d"
+    url "https://github.com/kitifica-max/cc-controller/releases/download/v1.6.0/CC.Creator-1.6.0.dmg"
+    sha256 "f866187a560fb856f8b28b32e61ce7726db838ac02e7bb3c398cbd15bc5fd9be"
   end
 
-  name "CC Controller"
+  name "CC Creator"
   desc "Control Claude Code desde tu iPhone via PWA"
   homepage "https://ccc.kitifica.com"
 
-  app "CC Controller.app"
+  app "CC Creator.app"
 end
